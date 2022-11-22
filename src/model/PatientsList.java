@@ -12,7 +12,10 @@ public class PatientsList implements IPatient {
         int listsize = Integer.parseInt(data.nextLine());
 
         for (int i = 0; i < listsize; i++) {
-            patients.add(new Patient(data.nextLine(), data.nextLine()));
+            Patient p = new Patient(data.nextLine(), data.nextLine(), data.nextLine(), data.nextLine());
+            patients.add(p);
+            // patients.add(new Patient(data.nextLine(), data.nextLine(), data.nextLine(),
+            // data.nextLine()));
 
             // Integer.parseInt(data.nextLine());
             // data.nextLine();

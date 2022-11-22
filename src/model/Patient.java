@@ -5,24 +5,22 @@ public class Patient {
     private String lastName;
     private String address;
     private String city;
-    // private int zipCode;
-    // private String email;
-    // private String phoneNumber;
-    // private Double startWeight;
-    // private int dateOfBirth;
-
-    
+    private int zipCode;
+    private String email;
+    private String phoneNumber;
+    private Double startWeight;
+    private int dateOfBirth;
 
     Patient(String name, String lastName, String address, String city) {
         this.name = name;
         this.lastName = lastName;
         this.address = address;
         this.city = city;
-        // this.zipCode = zipCode;
-        // this.email = email;
-        // this.phoneNumber = phoneNumber;
-        // this.startWeight = startWeight;
-        // this.dateOfBirth = dateOfBirth;
+        this.zipCode = zipCode;
+        this.email = email;
+        this.phoneNumber = phoneNumber;
+        this.startWeight = startWeight;
+        this.dateOfBirth = dateOfBirth;
 
     }
 
@@ -105,7 +103,7 @@ public class Patient {
 
     @Override
     public String toString() {
-        return "Patient [name=" + name + ", lastName=" + lastName + ", address=" + address + ", city=" + city
+        return "Patient [name= " + name + ", lastName= " + lastName + ", address= " + address + ", city= " + city
                 + "]";
     }
 

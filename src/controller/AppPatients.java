@@ -10,7 +10,7 @@ public class AppPatients {
 			patients.patientslist(
 					"F:\\FRANCESCO\\JavaProjects\\Pazienti\\src\\controller\\patientsList.txt");
 		} catch (Exception e) {
-			System.out.printf("file not found", e); // TODO
+			System.out.printf("file not found", e);
 		}
 
 	}
